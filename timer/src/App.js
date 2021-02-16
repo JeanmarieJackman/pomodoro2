@@ -1,6 +1,17 @@
 import React from 'react';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      todos: [{
+        //task: '',
+        //id: '',
+        //completed: false,
+      }]
+      todo: ''
+    }
+  }
   render() {
     return (
       <div className="App">
