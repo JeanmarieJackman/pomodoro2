@@ -8,7 +8,7 @@ class App extends React.Component {
         //task: '',
         //id: '',
         //completed: false,
-      }]
+      }],
       todo: ''
     }
   }
